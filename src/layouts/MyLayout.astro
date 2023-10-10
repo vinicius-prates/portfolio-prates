@@ -1,0 +1,28 @@
+---
+import type { MarkdownLayoutProps } from 'astro';
+
+
+const { title } = Astro.props
+---
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+        <title>{title}</title>
+    </head>
+    <body class="flex flex-col items-center bg-[#080c0f] bg-no-repeat bg- bg-fill max-h-screen" style="background-image: url(/bg.png);">
+        <slot/>
+    </body>
+</html>
+
+<style>
+    *{
+        font-family: 'Poppins', sans-serif;
+    }
+</style>

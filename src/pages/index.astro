@@ -1,0 +1,14 @@
+---
+import MyLayout from '../layouts/MyLayout.astro';
+import AboutMe from '../components/AboutMe.astro'
+import TechInfo from '../components/TechInfo.astro';
+---
+
+<MyLayout title="Vinicius Prates">
+	<main>
+		<container class="flex flex-col md:flex-row  items-center w-screen gap-4 md:gap-0 py-2 md:py-9">
+			<AboutMe/>
+			<TechInfo/>
+		</container>
+	</main>
+</MyLayout>
