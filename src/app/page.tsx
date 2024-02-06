@@ -5,7 +5,7 @@ export default function Home() {
       <div className="flex flex-col gap-8 items-center">
         <img src="/avatar.jpg" className="w-72 rounded-xl " />
         <p className="text-lg">
-          My name is Vinicius Prates, i'm a brazilian fullstack developer and a
+          My name is Vinicius Prates, i am a brazilian fullstack developer and a
           future software engineer.
         </p>
       </div>
