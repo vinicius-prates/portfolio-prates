@@ -27,7 +27,7 @@ body::before{
     opacity: 0.5;
 }
 
-header, main {
+header, main, footer {
     color: whitesmoke;
     isolation: isolate;
 }
