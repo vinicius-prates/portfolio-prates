@@ -8,7 +8,7 @@ export default function Home() {
   month < 10 ?  yearsOld = year - 2004 : yearsOld = year - 2003
 
   return (
-    <div className="flex flex-col items-center gap-16 my-12 md:px-[20vw] text-center px-6">
+    <div className="flex flex-col items-center gap-16 my-12 md:px-[20vw] text-center px-6 ">
       <h1 className="hidden md:flex font-bold text-3xl"> Welcome!</h1>
       <div className="flex flex-col gap-8 items-center 2xl:px-72">
         <img src="/avatar.jpg" className="w-72 rounded-xl " />
