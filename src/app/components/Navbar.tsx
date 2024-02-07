@@ -5,7 +5,7 @@ export const Navbar = () => {
             <div className="hidden md:flex md:flex-row gap-10">
                 <a href="/about">About</a>
                 <a>Tools & Languages</a>
-                <a>Gear</a>
+                <a href="/gear">Gear</a>
             </div>
         </div>
     )
